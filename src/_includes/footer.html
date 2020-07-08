@@ -72,9 +72,9 @@
   <a href="https://www.learnwithjason.dev"
     >Created on <em>Learn With Jason</em></a
   >
-  {% if episode %}<a href="{{ episode }}">Watch It Get Built</a>{% endif %}{% if
-  tutorial %}<a href="{{ tutorial }}">Tutorial</a>{% endif %}{% if repo %}<a
-    href="https://github.com/{{ repo }}"
+  {% if meta.episode %}<a href="{{ meta.episode }}">Watch It Get Built</a>{%
+  endif %}{% if meta.tutorial %}<a href="{{ meta.tutorial }}">Tutorial</a>{%
+  endif %}{% if meta.repo %}<a href="https://github.com/{{ meta.repo }}"
     >Source Code</a
   >
   <a
